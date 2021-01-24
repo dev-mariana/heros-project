@@ -1,5 +1,5 @@
 {
-  "name": "08-multi-db-postgres",
+  "name": "09-multi-db-mongo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
+    "mongoose": "^5.11.13",
     "pg": "^8.5.1",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.5"

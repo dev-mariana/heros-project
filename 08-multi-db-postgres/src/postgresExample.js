@@ -5,10 +5,10 @@ require('dotenv').config();
 const Sequelize = require('sequelize');
 const driver = new Sequelize(
     'heros',
-    process.env.USER,
-    process.env.PASSWORD,
+    process.env.DB_USER,
+    process.env.DB_PASSWORD,
     {
-        host: 'localhost',
+        host: DB_HOST,
         dialect: 'postgres',
         quoteIdentifiers: false,
         operatorsAliases: 0
